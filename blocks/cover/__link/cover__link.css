@@ -1,0 +1,60 @@
+.cover__link {
+    text-decoration: none;
+    background-image: url(../../../images/cover-trains.jpg);
+    background-size: 100% 100%;
+    color: inherit;
+    display: grid;
+    grid-template-areas:
+    ". . ."
+    ". title ."
+    ". subtitle ."
+    ". . .";
+    grid-template-columns: 1fr minmax(min-content , 560px) 1fr;
+    grid-template-rows: 245px minmax(min-content , 152px) minmax(min-content , 66px) 245px;
+    position: relative;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.cover__link::after {
+    content: '';
+    position: absolute;
+    background: #2A2C2F;
+    opacity: .3;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    transition: opacity .3s ease-in-out;
+}
+
+.cover__link:hover::after {
+    opacity: .8;
+}
+
+@media all and (max-width: 1024px) {
+    .cover__link {
+        grid-template-rows: 195px minmax(min-content , 152px) minmax(min-content , 66px) 195px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .cover__link {
+        grid-template-rows: 115px minmax(min-content , 152px) minmax(min-content , 66px) 115px;
+    }
+}
+
+@media all and (max-width: 524px) {
+    .cover__link {
+        grid-template-columns: 1fr minmax(min-content , max-content) 1fr;
+        grid-template-rows: 66px minmax(min-content , max-content) minmax(min-content , max-content) 66px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .cover__link {
+        grid-template-columns: 1fr minmax(min-content , 288px) 1fr;
+        grid-template-rows: 33px minmax(min-content , 70px) minmax(min-content , 48px) 33px;
+    }
+}

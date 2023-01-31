@@ -1,0 +1,20 @@
+.place__website {
+    grid-area: website;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    row-gap: 12px;
+}
+
+@media all and (max-width: 524px) {
+    .place__website {
+    padding: 0 20px;
+    }
+}
+
+
+@media all and (max-width: 320px) {
+    .place__website {
+    padding: 0 16px;
+    }
+}

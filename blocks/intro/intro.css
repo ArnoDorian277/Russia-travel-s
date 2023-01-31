@@ -1,0 +1,13 @@
+.intro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 56px;
+    max-width: 984px;
+}
+
+@media all and (max-width: 1024px) {
+    .intro {
+        padding-top: 48px;
+    }
+ }

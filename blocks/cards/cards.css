@@ -1,0 +1,20 @@
+.cards {
+    padding-top: 92px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+@media all and (max-width: 768px) {
+    .cards {
+        padding: 88px 24px 0;
+        row-gap: 73px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .cards {
+        padding: 64px 0 0;
+        row-gap: 50px;
+    }
+}

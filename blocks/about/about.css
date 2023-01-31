@@ -1,0 +1,19 @@
+.about {
+    max-width: 690px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 92px;
+}
+
+@media all and (max-width: 768px) {
+    .about {
+        max-width: 720px;
+        padding: 88px 24px 0;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .about {
+        padding: 64px 16px 0;
+    }
+}

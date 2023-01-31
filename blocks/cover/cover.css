@@ -1,0 +1,23 @@
+.cover {
+    color: #FFF;
+    padding-top: 92px;
+}
+
+@media all and (max-width: 1024px) {
+    .cover {
+        max-width: 100%;
+        padding: 92px 0 0;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .cover {
+        padding-top: 90px;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .cover {
+        padding-top: 66px;
+    }
+}

@@ -1,0 +1,24 @@
+.page__min {
+    max-width: 984px;
+    padding: 0 148px;
+}
+
+@media all and (max-width: 1024px) {
+    .page__min {
+        max-width: 928px;
+        padding: 0 48px;
+    }
+}
+
+@media all and (max-width: 768px) {
+    .page__min {
+        max-width: 768px;
+        padding: 0;
+    }
+}
+
+@media all and (max-width: 320px) {
+    .page__min {
+        max-width: 320px;
+    }
+}
