@@ -19,7 +19,7 @@
 @media all and (max-width: 524px) {
     .place__title {
         padding: 0 24px;
-        white-space: nowrap;
+        white-space: revert;
     }
 }
 
