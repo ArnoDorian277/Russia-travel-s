@@ -16,4 +16,4 @@
 
 **PROJECT**
 
-- [Ссылка на проект](https://github.com/ArnoDorian277/Russia-travel-s)
+- [Ссылка на проект](https://arnodorian277.github.io/Russia-travel-s/)
