@@ -6,7 +6,9 @@
 @media all and (max-width: 1024px) {
     .cover {
         max-width: 100%;
-        padding: 92px 0 0;
+        padding-left: 0;
+        padding-right: 0;
+        /* padding: 92px 0 0; исправлено */
     }
 }
 
