@@ -34,13 +34,12 @@
 @import url('../blocks/about/__title/about__title.css');
 @import url('../blocks/about/__text/about__text.css');
 @import url('../blocks/about/__list/about__list.css');
-@import url('../blocks/about/__list/_numbers/about__list_numbers.css');
+@import url('../blocks/about/__list/about__list-numbers.css');
 
 /* GALLERY */
 
 @import url('../blocks/gallery/gallery.css');
 @import url('../blocks/gallery/__items/gallery__items.css');
-@import url('../blocks/gallery/__item/gallery__item.css');
 @import url('../blocks/gallery/__image/gallery__image.css');
 
 /* CARDS */
